@@ -1,11 +1,11 @@
-import tensorflow as tf 
-from tensorflow import keras 
+import tensorflow as tf
+from tensorflow import keras
 
 def get_cifar10_dataset(num_classes = 10):
   """
   Loads and preprocesses the CIFAR-10 dataset.
 
-  Returns: 
+  Returns:
   A Tuple of (x_train, y_train), (x_test, y_test).
   Images are normalized to [0,1] and labels are one-hot encoded.
   """
